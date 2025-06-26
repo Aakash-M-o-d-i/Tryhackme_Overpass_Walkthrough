@@ -159,6 +159,7 @@ nikto -h http://10.10.209.74/ -o nikto_scan.txt
   <img src="./images/listen.png" alt="Netcat Listener" width="600"/>
 
 - **Root Shell Acquired:**
+  
   <img src="./images/root_shell.png" alt="Root Shell" width="600"/>
 
 - **Verify Root Access:**
