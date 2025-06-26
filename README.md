@@ -9,9 +9,9 @@
 
 ---
 
-**Author:** **Aakash Modi**
-
----
+<div align="right">
+  <p><strong>Author:</strong> <em>Aakash Modi</em></p>
+</div>
 
 ## 🚩 Table of Contents
 
