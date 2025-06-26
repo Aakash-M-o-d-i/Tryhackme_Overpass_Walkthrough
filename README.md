@@ -182,6 +182,7 @@ nikto -h http://10.10.209.74/ -o nikto_scan.txt
 # 🎯 Conclusion
 
 - All tasks completed successfully!
+  
   <img src="./images/completed.png" alt="Room Completed" width="600"/>
 
 ---
