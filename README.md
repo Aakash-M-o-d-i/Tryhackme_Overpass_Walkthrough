@@ -39,7 +39,13 @@ sudo nmap -T4 -n -sC -sV -Pn -p- -oN fastscan.txt 10.10.5.56
 
 **Command:**
 ```bash
-dirbuster -u http://10.10.191.18/ -l /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 20
+gobuster dir -u http://10.10.209.74 \                    
+-w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt \
+-x php,js,html,css \
+--exclude-length 1286 \
+-o directory_scan.txt \
+-a "Mozilla/5.0 (Kali)" \
+-t 40 --timeout 10s
 ```
 <p align="center">
   <img src="./images/directory_scan.png" alt="Directory Scan Screenshot" width="600"/>
